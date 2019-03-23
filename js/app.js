@@ -1,4 +1,3 @@
-
 // hides the main body content
 const body = document.querySelector('.body');
 body.style.display = 'none';

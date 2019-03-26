@@ -49,5 +49,7 @@ I learned how to upload a font and use the @font-face to be able to use the offi
 
 2.  I brought in 2 fonts.  The Lilita One font was brought in using Google Fonts CDN.  For the Isuzu Font I used a font generator to create a webfont kit and used the @font-face to use it.  This was really exciting to learn how to bring in certain fonts.
 
-
+3.  In the footer section if you click on "Tyler Ramage" a contact form modal will appear.  After hearing that bots can sniff email address from html pages I decided not to use the basic <a> tag.  Instead I used a modal to keep my email private.
+  
+4.  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up.
 

@@ -45,14 +45,14 @@ I learned how to upload a font and use the @font-face to be able to use the offi
 
 ## Extra Notes
 
-1.  Currently there is only one HTML file.  The links in the nav at the top of the page currently don't go anywhere.
+1.  Currently there is only one HTML file.  The links in the nav at the top of the page currently only point to the top of the page and do not open another page yet.
 
 2.  The carousel was difficult to work with in regards to image placement and display.  After doing research I found that others used a photo editor (PIXLR Editor) that allows you to crop images based on a certain aspect ratio.  I found that the Bootstrap 4 Carousel (at max vp) is 1200 x 480px.  I obtained high res images and then edited them to these specs.  Along with adding col-lg class, using CSS to set max height and editing these images, the carousel looks great now in all sizes.  I kept the default setting to pause carousel on mouseover.  The last image in the carousel is purposely not the same size.  I did this to illustrate that my custom css selectors and bootstrap classes can still center and apply appropriate responsive changes to images that are not "prepared" like the other images are.  I also doubled the amount of images and added extra indicators to match.
 
 3.  I brought in 2 fonts.  The Lilita One font was brought in using Google Fonts CDN.  For the Isuzu Font I used a font generator to create a webfont kit and used the @font-face to use it.  This was really exciting to learn how to bring in specific/unique fonts.
 
-4.  MODAL #1:  In the footer section if you click on "Tyler Ramage" a contact form modal will appear.  After hearing that bots can sniff email address from html pages I decided not to use the basic anchor tag.  Instead I used a modal to keep my email private.
+4.  MODAL #1:<br>  In the footer section if you click on "Tyler Ramage" a contact form modal will appear.  After hearing that bots can sniff email address from html pages I decided not to use the basic anchor tag.  Instead I used a modal to keep my email private.
   
-5.  MODAL #2:  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up for various updates.  I already have the actual pdf's ready for download for future implementation.
+5.  MODAL #2:<br>  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up for various updates.  I already have the actual pdf's ready for download for future implementation.
 
-6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).  When the site goes live I will remove the "What is it?" and the down arrow.  The site will load the full contents initially.  
+6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).  When the site goes live I will remove the "What is it?" and the down arrow.  The site will load the full contents without having to click anything.

@@ -51,8 +51,8 @@ I learned how to upload a font and use the @font-face to be able to use the offi
 
 3.  I brought in 2 fonts.  The Lilita One font was brought in using Google Fonts CDN.  For the Isuzu Font I used a font generator to create a webfont kit and used the @font-face to use it.  This was really exciting to learn how to bring in specific/unique fonts.
 
-4.  In the footer section if you click on "Tyler Ramage" a contact form modal will appear.  After hearing that bots can sniff email address from html pages I decided not to use the basic anchor tag.  Instead I used a modal to keep my email private.
+4.  MODAL #1:  In the footer section if you click on "Tyler Ramage" a contact form modal will appear.  After hearing that bots can sniff email address from html pages I decided not to use the basic anchor tag.  Instead I used a modal to keep my email private.
   
-5.  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up for various updates.  I already have the actual pdf's ready for download for future implementation.
+5.  MODAL #2:  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up for various updates.  I already have the actual pdf's ready for download for future implementation.
 
-6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).
+6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).  When the site goes live I will remove the "What is it?" and the down arrow.  The site will load the full contents initially.  

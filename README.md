@@ -10,32 +10,41 @@ This targets all images in the carousel.  The values ensure that the images are 
 2. (html, body) and .container<br>
 Ensure the layout is initially set up.
 
-3. .fa-chevron-down<br>
+3. .navbar .navbar-nav a
+This targets the links in the navbar, overrides the bootstrap styling (with !important) and sets the color to black
+
+4. .navbar .navbar-nav a:hover
+This targets the links in the navbar, overrides the boostrap styling (with !important) and sets the hover state to red for better visibility.
+
+5. #whatIsIt:hover
+This changes the hover state color on the "What is it?" heading.
+
+6. .fa-chevron-down<br>
 This sets the size, padding and color of the down arrow (click to reveal page contents).
 
-4. #whatIsIt<br>
+7. #whatIsIt<br>
 This changes the cursor into the hand icon upon hover.  This makes it easier for the user to understand that this is a clickable feature.
 
-5. #vx<br>
+8. #vx<br>
 This targets the id of vx and uses the Isuzu font and creates a text shadow.
 
-6. .heading<br>
+9. .heading<br>
 This targets the heading and sets the font to Lilita One.  The font stack has fallback fonts to use in the event of a problem with the Lilita One font.
 The Lilita One font was obtained using google cdn.
 
-7. .lead::first-letter<br>
+10. .lead::first-letter<br>
 This targets only the first letter of the first paragraph (which is using the bootstrap 4 .lead for further styling) and changes the style to the values listed.
 
-8. footer > div<br>
+11. footer > div<br>
 This changes the background color of the footer to a light gray color.
 
-9. footer .btn-link<br>
+12. footer .btn-link<br>
 This changes the styling for the footer button link.  This button is a Bootstrap 4 class and the button was not inline with the text.  It appeared to be out of place.  The padding and vertical-align brought the buttons location to back inline.
 
-10. footer .btn-link:hover<br>
+13. footer .btn-link:hover<br>
 This changes the link to a blue color upon hover.  This was to ensure it stands out from the light bray background upon hover.
 
-11. @font-face<br>
+14. @font-face<br>
 I learned how to upload a font and use the @font-face to be able to use the official Isuzu Font for #vx.
 
 ## Custom JavaScript

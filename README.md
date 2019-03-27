@@ -55,4 +55,4 @@ I learned how to upload a font and use the @font-face to be able to use the offi
   
 5.  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up for various updates.  I already have the actual pdf's ready for download for future implementation.
 
-6.  I've purchased two domains but have not decided which to use when this site goes live.
+6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).

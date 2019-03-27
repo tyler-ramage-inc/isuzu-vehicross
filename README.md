@@ -1,7 +1,7 @@
 # CodeLou_FrontEnd
 
 ## Description
-This site is about the rare Isuzu VehiCross.  Upon loading the page the site is just a carousel.  Mousing over any part of the images pauses the carousel.  Click on the "What is it?" element or the down arrow to reveal the contents of the page.
+This site is about the rare Isuzu VehiCross.  Upon loading the page the site is just a carousel.  Mousing over any part of the images pauses the carousel.  I changed the "scroll" behavior to "fade" for a better effect.  When the user clicks on the "What is it?" element or the down arrow then the contents of the page are revealed.
 
 ## Custom CSS Classes
 1. .carousel-item > img <br>

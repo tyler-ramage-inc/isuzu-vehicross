@@ -7,14 +7,14 @@ This site is about the rare Isuzu VehiCross.  Upon loading the page the site is 
 1. .carousel-item > img <br>
 This targets all images in the carousel.  The values ensure that the images are centered and that the max height of any image is 525px to ensure that the "What is it?" will remain visible even on large viewports.
 
-2. (html, body) and .container<br>
+2. .navbar .navbar-nav .nav-link
+This targets the links in the navbar, overrides the bootstrap styling.  It sets the link color to black, increases font weight and padding inbetween.
+
+3. .navbar .navbar-nav .nav-link:hover
+This targets the links in the navbar, overrides the boostrap styling and sets the hover state to red for better visibility.
+
+4. (html, body) and .container<br>
 Ensure the layout is initially set up.
-
-3. .navbar .navbar-nav a
-This targets the links in the navbar, overrides the bootstrap styling (with !important) and sets the color to black
-
-4. .navbar .navbar-nav a:hover
-This targets the links in the navbar, overrides the boostrap styling (with !important) and sets the hover state to red for better visibility.
 
 5. #whatIsIt:hover
 This changes the hover state color on the "What is it?" heading.
@@ -25,27 +25,31 @@ This sets the size, padding and color of the down arrow (click to reveal page co
 7. #whatIsIt<br>
 This changes the cursor into the hand icon upon hover.  This makes it easier for the user to understand that this is a clickable feature.
 
-8. #vx<br>
+8. #whatIsIt:hover<br>
+This changes the color to red during hover state.
+
+9. #vx<br>
 This targets the id of vx and uses the Isuzu font and creates a text shadow.
 
-9. .heading<br>
+10. .heading<br>
 This targets the heading and sets the font to Lilita One.  The font stack has fallback fonts to use in the event of a problem with the Lilita One font.
 The Lilita One font was obtained using google cdn.
 
-10. .lead::first-letter<br>
+11. .lead::first-letter<br>
 This targets only the first letter of the first paragraph (which is using the bootstrap 4 .lead for further styling) and changes the style to the values listed.
 
-11. footer > div<br>
+12. footer > div<br>
 This changes the background color of the footer to a light gray color.
 
-12. footer .btn-link<br>
+13. footer .btn-link<br>
 This changes the styling for the footer button link.  This button is a Bootstrap 4 class and the button was not inline with the text.  It appeared to be out of place.  The padding and vertical-align brought the buttons location to back inline.
 
-13. footer .btn-link:hover<br>
+14. footer .btn-link:hover<br>
 This changes the link to a blue color upon hover.  This was to ensure it stands out from the light bray background upon hover.
 
-14. @font-face<br>
+15. @font-face<br>
 I learned how to upload a font and use the @font-face to be able to use the official Isuzu Font for #vx.
+
 
 ## Custom JavaScript
 
@@ -64,4 +68,4 @@ I learned how to upload a font and use the @font-face to be able to use the offi
   
 5.  MODAL #2:<br>  In the footer section if you click on "Sign Up Now" a sign-up form modal will appear.  In the future this will allow visitors to sign up for various updates.  I already have the actual pdf's ready for download for future implementation.
 
-6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).  When the site goes live I will remove the "What is it?" and the down arrow.  The site will load the full contents without having to click anything.
+6.  I've purchased two domains but have not decided which to use when this site goes live (www.TylersVX.com and www.vxParts.com).  When the site goes live I will remove the "What is it?" and the down arrow.  The site will load the full contents without having to click anything and all nav links will have pages.
